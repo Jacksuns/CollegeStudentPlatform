@@ -1,0 +1,108 @@
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>找学生</title>
+    <link rel="stylesheet" href="../css/nav_new.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/studentMessage.css" type="text/css"/>
+    <script language="JavaScript">
+        function signCheck() {
+            if (form1.id.value == "") {
+                alert("请输入用户名");
+                form1.id.focus();
+                return;
+            } else if (form1.pwd.value == "") {
+                alert("请输入密码");
+                form1.pwd.focus();
+                return;
+            } else {
+                form1.action = "../userServlet?action=login&url=Module_practice/studentMessage.jsp";
+                form1.submit();
+            }
+        }
+        function logout(){
+            javascipt:location.href='../userServlet?action=logout&url=Module_practice/studentMessage.jsp';
+        }
+    </script>
+</head>
+<body>
+<div id="container">
+
+    <div id="header" background="school.jpg">
+        <ul>
+            <li><span><a href="首页.html">加入收藏</a></span></li>
+            <li><span><a href="首页.html">设为首页</a></span></li>
+
+
+        </ul>
+    </div>
+    <div id="nav">
+        <ul>
+            <a target="_top" href="../index.jsp"><li>首页</li></a>
+            <a target="_top" href="findTeacher.jsp"><li>勤工助学</li></a>
+            <a target="_top" href="../Module_fit/fit.jsp"><li>体育健身</li></a>
+            <a target="_top" href="../Module_community/community.jsp"><li>团委社团</li></a>
+            <a target="_top" href="../Module_learn/xssh.jsp"><li>学术生活</li></a>
+            <a target="_top" href="../Module_competition/competition.jsp"><li>科研竞赛</li></a>
+            <a target="_top" href="../Module_resource/resource.jsp"><li>资源发布</li></a>
+            <a target="_top" href="../Module_outdoor/outdoor.jsp"><li>户外交友</li></a>
+        </ul>
+    </div>
+    <br/>
+    <!--悬挂图片-->
+    <div id="picture"></div>
+    <!--登录窗口-->
+    <div id="signIn">
+
+        <form name="form1" action="" method="post">
+            用户名：
+            <input type="text" class="input" name="id">
+            密码：
+            <input type="password" class="input" name="pwd">
+            <input type="button" class="button" value="登录" onclick="signCheck()"/>
+            <input type="button" class="button" value="注册" onclick="javascipt:location.href='register/register.jsp'"/>
+            <span class="person"> 访问人数:5003</span>
+        </form>
+
+        <br/>
+
+
+    </div>
+    <br/>
+    <div id="main_body">
+        <div id="stu">
+            <div id="details">
+
+                <p >&nbsp;姓&nbsp;&nbsp;名&nbsp;: &nbsp;&nbsp;
+                    武文博
+
+                </p>
+                <p>&nbsp;年&nbsp;&nbsp;龄&nbsp;: &nbsp;&nbsp;
+                    12
+                </p>
+                <p>&nbsp;性&nbsp;&nbsp;别&nbsp;: &nbsp;&nbsp;
+                    男
+                </p>
+                <p>&nbsp;年&nbsp;&nbsp;级&nbsp;: &nbsp;&nbsp;
+                    六年级
+                </p>
+                <p>&nbsp;科&nbsp;&nbsp;目&nbsp;: &nbsp;&nbsp;
+                    英语
+                </p>
+                <p>&nbsp;地&nbsp;&nbsp;址&nbsp;: &nbsp;&nbsp;
+                    沈阳市创新路195号
+                </p>
+                <p>上课时间: &nbsp;&nbsp;
+                    每周六早上10点
+                </p>
+                <!--投送简历的功能-->
+                <div id="dButton">
+                    <button class="dButton" onclick="" >投送简历</button>
+                    <button class="dButton" onclick="javascipt:location.href='../stuServlet?action=search'" >返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+		#bigDiv{
+			width:100%;
+            height:600px;
+            margin: 0 auto;
+			background-color:white;
+		}
+		
+		#rightDiv{
+			margin: 0 auto;
+            margin-top:30px;
+			width:80%;
+			height:1000px;
+			background-color: white;
+			border: 3px solid rgb(101,167,228);
+		}
+		#register{
+			padding-left:150px;
+			border: 0px solid #f00;
+		}
+		#rightDiv h3{
+			margin-top: 30px;
+			font-weight:bold;
+			font-style:italic;
+			font-size:30px;
+			color:rgb(91,155,213);
+			text-align: left;
+			margin-left: 50px;
+		}
+		#rightDiv hr{
+			height: 3px;
+			width: 90%;
+			background-color: rgb(157,195,230);
+			margin: 0 auto;
+			border: 0px;
+			
+		}
+		.line{
+			display: block;
+			width: 80%;
+			margin: 0 auto;
+			margin-top: 30px;
+		}
+		#rightDiv label{
+			
+			color: rgb(91,155,213);
+			font-size:1.2em;
+		}
+		input.rInput {
+			padding: 10px 15px;
+			width: 75%;
+			color: #999;
+			font-size: 13px;
+			background:none;
+			border: 1px solid #D1D1D1;
+			border-radius:10px;
+			outline: none;
+			
+		}
+		
+		input.rButton {
+			margin: 0 auto;
+			margin-top:50px ;
+			outline: none;
+			cursor: pointer;
+			text-transform: uppercase;
+			transition: 0.5s all;
+			background-color: rgb(101,167,228);
+			color: #fff;
+			font-size:1.3em;
+			width: 25%;
+			padding: 0.5em;
+			border: none;
+			font-family: 'Lobster Two', cursive;
+			border-radius: 10px;
+			line-height: 1.2em;
+		}
+		input.rButton:hover{
+			background-color: rgb(91,155,213);	
+		}
