@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.Date;
 
 /**
- * Created by jay chen on 2016/9/17.
+ * Created by ZackSun on 2016/9/17.
  */
 public class stuAction {
     //学生发布信息

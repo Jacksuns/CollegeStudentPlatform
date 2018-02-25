@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jay chen on 2016/9/17.
+ * Created by ZackSun on 2016/9/17.
  */
 public class newsAction {
     public static List<News> randomSearch(String kind1){

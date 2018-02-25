@@ -1,7 +1,7 @@
 package bean;
 
 /**
- * Created by jay chen on 2016/9/17.
+ * Created by ZackSun on 2016/9/17.
  */
 public class Student {
  /*  <!-- 姓名:<input type="text" name="name"><br>

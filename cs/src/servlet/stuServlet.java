@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jay chen on 2016/9/17.
+ * Created by ZackSun on 2016/9/17.
  */
 @WebServlet(name = "stuServlet",urlPatterns = "/stuServlet")
 public class stuServlet extends HttpServlet {

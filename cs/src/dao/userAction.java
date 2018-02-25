@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * Created by jay chen on 2016/9/14.
+ * Created by ZackSun on 2016/9/14.
  */
 public class userAction {
     //登陆

@@ -1,7 +1,7 @@
 package bean;
 
 /**
- * Created by jay chen on 2016/9/14.
+ * Created by ZackSun on 2016/9/14.
  */
 public class User {
     private String id;

@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.nio.file.Path;
 
 /**
- * Created by jay chen on 2016/9/14.
+ * Created by ZackSun on 2016/9/14.
  */
 @WebServlet(name = "userServlet", urlPatterns = "/userServlet")
 public class userServlet extends javax.servlet.http.HttpServlet {
